@@ -1,0 +1,13 @@
+Loading images...
+train (2870, 3, 224, 224) test (394, 3, 224, 224)
+epoch 1/7 loss 0.8582 test_acc 0.6751 {'glioma_tumor': 0.33, 'meningioma_tumor': 0.87, 'no_tumor': 0.962, 'pituitary_tumor': 0.432}
+epoch 2/7 loss 0.4519 test_acc 0.7056 {'glioma_tumor': 0.27, 'meningioma_tumor': 0.913, 'no_tumor': 1.0, 'pituitary_tumor': 0.554}
+epoch 3/7 loss 0.3619 test_acc 0.7944 {'glioma_tumor': 0.39, 'meningioma_tumor': 0.93, 'no_tumor': 1.0, 'pituitary_tumor': 0.838}
+epoch 4/7 loss 0.3068 test_acc 0.7868 {'glioma_tumor': 0.32, 'meningioma_tumor': 0.991, 'no_tumor': 1.0, 'pituitary_tumor': 0.797}
+epoch 5/7 loss 0.2717 test_acc 0.7893 {'glioma_tumor': 0.34, 'meningioma_tumor': 0.991, 'no_tumor': 1.0, 'pituitary_tumor': 0.784}
+epoch 6/7 loss 0.2543 test_acc 0.7995 {'glioma_tumor': 0.35, 'meningioma_tumor': 0.991, 'no_tumor': 1.0, 'pituitary_tumor': 0.824}
+epoch 7/7 loss 0.2480 test_acc 0.7970 {'glioma_tumor': 0.36, 'meningioma_tumor': 0.991, 'no_tumor': 1.0, 'pituitary_tumor': 0.797}
+best test accuracy 0.799492359161377 {'glioma_tumor': 0.35, 'meningioma_tumor': 0.991, 'no_tumor': 1.0, 'pituitary_tumor': 0.824}
+/home/claude/brain-tumor-ai/train/train.py:145: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html
+  torch.onnx.export(
+Exported to /home/claude/brain-tumor-ai/model

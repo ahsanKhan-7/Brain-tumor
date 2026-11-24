@@ -1,0 +1,9 @@
+train/*.pth
+train/train.log
+data/
+__pycache__/
+.env
+.vercel
+venv/
+.venv/
+.claude/

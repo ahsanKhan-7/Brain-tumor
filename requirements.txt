@@ -1,0 +1,6 @@
+fastapi
+python-multipart
+httpx
+numpy
+pillow
+onnxruntime
