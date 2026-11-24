@@ -1,5 +1,7 @@
 # Brain MRI Assistant
 
+**Live demo:** https://brain-tumor-henna.vercel.app/
+
 Upload a brain MRI image. The app tells which of 4 classes it looks like (glioma, meningioma, pituitary tumor, no tumor), shows a heatmap of the area the model focused on, and an LLM explains the result in simple words with the type of doctor to visit. The LLM is not allowed to mention any medicine.
 
 ## Folder layout
